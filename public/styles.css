@@ -1,0 +1,91 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Intro  */
+  .intro-section {
+    background-image: url('https://wallpapers.com/images/featured/earth-day-background-wdxpm8c6ua8wfgb0.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full-screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .intro-section h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .intro-section p {
+    font-size: 1.5rem;
+    max-width: 600px; /* Limit width for better readability */
+    margin-top: 10px;
+  }
+  
+  /* Company List */
+  .company-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: rgba(0, 139, 39, 0.8);
+  }
+  
+  /* Company Card */
+  .company-card {
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer; 
+  }
+  
+  .company-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Company Detail Page */
+  .company-detail-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .company-logo {
+    width: 150px; /* Set a fixed width for logos */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .company-info {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px; /* Limit width for better readability */
+  }
+  
+  .back-to-list {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .back-to-list:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  
